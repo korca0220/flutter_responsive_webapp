@@ -1,4 +1,4 @@
-package com.example.flutter_responsive_webapp
+package com.example.flutter_profile
 
 import io.flutter.embedding.android.FlutterActivity
 
