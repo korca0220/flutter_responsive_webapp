@@ -20,11 +20,9 @@ class MainScreen extends StatelessWidget {
             children: [
               Expanded(
                 flex: 2,
-                child: Container(
-                  color: Colors.redAccent,
-                  child: SideMenu(),
-                ),
+                child: SideMenu(),
               ),
+              SizedBox(width: defaultPadding),
               Expanded(
                 flex: 7,
                 child: SingleChildScrollView(
